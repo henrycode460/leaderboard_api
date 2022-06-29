@@ -17,19 +17,12 @@
 
             <div class="details-top">
             <h3>RECENT SCORE</h3>
-            <button type="submit" class="refresh">Refresh</button>
+            <button type="submit" id="refershBtn" class="refresh">Refresh</button>
     
             </div>
     
-            <div class="details-button">
-                <h4>Name: 100</h4>
-                <h4 class="highted-score">Name: 20</h4>
-                <h4>Name: 50</h4>
-                <h4 class="highted-score">Name: 78</h4>
-                <h4>Name: 125</h4>
-                <h4 class="highted-score">Name: 77</h4>
-                <h4 >Name: 42</h4>
-    
+            <div class="displayList" id="displayList">
+
             </div>
         </div>
 
@@ -37,9 +30,9 @@
             <h2 class="score-title">
                 ADD YOUR SCORE
             </h2>
-            <form >
-                <input type="text" placeholder="Your Name" id="names" class="names"> <br> <br>
-                <input type="number" placeholder="Your Score" id="score" class="score"> <br>
+            <form id="formList" >
+                <input type="text" id="nameInput"  class="nameInput" placeholder="Enter Your Name" > <br> <br>
+                <input type="text" id="scoreInput"   class="scoreInput" placeholder="Enter Your Name" ><br><br>
                 <button type="submit" class="submitBtn">Submit</button>
             </form>
         </div>

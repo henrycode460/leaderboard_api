@@ -1,0 +1,50 @@
+.title {
+  padding: 10px 50px;
+}
+
+.highted-score {
+  background-color: rgb(200 200 235);
+  height: 25px;
+  margin-top: -5px;
+}
+
+.details-top {
+  display: flex;
+  gap: 10px;
+}
+
+.refresh {
+  width: 83px;
+  height: 29px;
+  margin-top: 15px;
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+
+.details-button {
+  height: 294px;
+  border: 2px solid;
+  width: 326px;
+}
+
+.details {
+  display: flex;
+  gap: 74px;
+  padding: 5px 140px;
+}
+
+input {
+  width: 213px;
+  height: 25px;
+}
+
+.submitBtn {
+  margin-top: 19px;
+  margin-left: 121px;
+  width: 100px;
+  height: 31px;
+  background: black;
+  color: white;
+  cursor: pointer;
+}

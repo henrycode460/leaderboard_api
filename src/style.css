@@ -1,5 +1,10 @@
+body {
+  background-color: rgb(233 233 81);
+}
+
 .title {
   padding: 10px 50px;
+  color: purple;
 }
 
 .highted-score {
@@ -17,7 +22,7 @@
   width: 83px;
   height: 29px;
   margin-top: 15px;
-  background: black;
+  background: purple;
   color: white;
   cursor: pointer;
 }
@@ -32,11 +37,16 @@
   display: flex;
   gap: 74px;
   padding: 5px 140px;
+  margin-left: 200px;
+  margin-top: 50px;
 }
 
 input {
   width: 213px;
   height: 25px;
+  font-size: 15px;
+  color: purple;
+  font-weight: bold;
 }
 
 .submitBtn {
@@ -44,7 +54,32 @@ input {
   margin-left: 121px;
   width: 100px;
   height: 31px;
-  background: black;
+  background: purple;
   color: white;
   cursor: pointer;
+}
+
+#displayList {
+  width: 257px;
+  padding: 0 10px;
+}
+
+.detail {
+  border: 3px solid purple;
+  border-radius: 0.5em;
+  color: purple;
+}
+
+h3 {
+  padding: 0 10px;
+  color: purple;
+}
+
+.score-title {
+  color: purple;
+}
+
+::placeholder {
+  color: purple;
+  font-size: 15px;
 }
